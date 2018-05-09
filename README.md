@@ -21,4 +21,4 @@ Code adapted from https://www.w3schools.com/xml/xml_http.asp, accessed 27th Apri
 
 Code adapted from https://www.htmlgoodies.com/beyond/javascript/calculate-the-distance-between-two-points-in-your-web-apps.html, accessed 19th April 2018,
 
-Code adapted from https://leafletjs.com/, accessed 25/04/2018 and UCL CEGEG077 Module, Week 1:Leaflet and Javascript Part 1, accessed 21st April 2018.]
+Code adapted from https://www.w3schools.com/html/html5_geolocation.asp, accessed 26th April 2018
