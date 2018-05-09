@@ -8,17 +8,16 @@ There are 4 files that are used to achieve functionality in the Quiz App.  The �
 Quiz data from the PostgreSQL database is requested and inserted into the Quiz App. A marker is inserted on a map to identify the location of the quiz points. The code incorporates the  haversine formula to calculate the distance between a user and a POI. The user has to be less than 5 metres from the POI to create a quiz popup on the map. For example, when a user is less than 5 metres from the front gates of UCL, a popup is created to ask the user what movie had scenes filmed in UCL. There are four alternative answers ‘Inception’, ‘Spiderman’, ‘Thor’ and ‘Transformers’ that are inserted as checkboxes. The user can select on of these answers and an alert message indicates whether they are right or wrong. The database contains the correct answer which is matched against the value of each checkbox. If they match, an alert message is created to notify the user that they are correct. If they don’t match, an alert message is created to notify the user that they are incorrect. The selected answer(s) and phone ID value  is inserted into the database once the user presses the submit button. 
 
 **References for the Quiz App**
-
-[uploadData.js Code adapted from UCL CEGEG077 Module, Week 6 and 7:Creating a Data Server (API), accessed 18th April 2018]
+[uploadData.js Code adapted from UCL CEGEG077 Module, Week 6 and 7:Creating a Data Server (API), accessed 18th April 2018, Also available from: https://github.com/claireellul/cegeg077-week6formcode/blob/master/ucfscde/www/js/uploadData.js ]
 
 [index.html Code adapted from Material Design - : https://getmdl.io/templates/index.html, accessed 23rd April 2018]
 
-[appActivity.js Adding a Leaflet Map: Code adapted from https://leafletjs.com/, accessed 25/04/2018 and UCL CEGEG077 Module, Week 1:Leaflet and Javascript Part 1, accessed 21st April 2018,
+[appActivity.js Adding a Leaflet Map: Code adapted from https://leafletjs.com/, accessed 25/04/2018 and UCL CEGEG077 Module, Week 1:Leaflet and Javascript Part 1, accessed 21st April 2018, Also available from: https://github.com/claireellul/cegeg077-week5app/blob/master/ucfscde/www/js/appActivity.js
 
 Get LatLngBounds: Code adapted from https://leafletjs.com/reference-1.3.0.html#latlngbounds, accessed 26th April 2018,
 
-AJAX HttpRequest: Code adapted from https://www.w3schools.com/xml/xml_http.asp, accessed 27th April 2018 and UCL CEGEG077 Module, Week 5:Creating an HTTPS Server, accessed 22nd April 2018,
+AJAX HttpRequest: Code adapted from https://www.w3schools.com/xml/xml_http.asp, accessed 27th April 2018 and UCL CEGEG077 Module, Week 5:Creating an HTTPS Server, accessed 22nd April 2018, Also available from: https://github.com/claireellul/cegeg077-week5server/blob/master/httpServer.js
 
-Haversine Distance Between Two Points: Code adapted from https://www.htmlgoodies.com/beyond/javascript/calculate-the-distance-between-two-points-in-your-web-apps.html, accessed 19th April 2018,
+Haversine Distance Between Two Points: Code adapted from https://www.htmlgoodies.com/beyond/javascript/calculate-the-distance-between-two-points-in-your-web-apps.html, accessed 19th April 2018, Also available from: https://github.com/claireellul/cegeg077-week1/blob/master/getDistance.html
 
-Track location of User: Code adapted from https://www.w3schools.com/html/html5_geolocation.asp, accessed 26th April 2018
+Track location of User: Code adapted from https://www.w3schools.com/html/html5_geolocation.asp, accessed 26th April 2018. Also available from: https://github.com/claireellul/cegeg077-week4/blob/master/ucfscde/www/js/appActivity.js]
